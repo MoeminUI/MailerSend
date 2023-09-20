@@ -28,6 +28,11 @@
         }
         &--text {
             margin-right: 3.5rem;
+            span {
+                font-family: "Playfair Display", serif;
+                font-style: italic;
+                color: $primary700;
+            }
             @include breakpoint-down(medium) {
                 margin-top: 5rem;
                 margin-right: 0rem;

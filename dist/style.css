@@ -137,6 +137,11 @@ button:hover,
 .hero__content--text {
   margin-right: 3.5rem;
 }
+.hero__content--text span {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: rgb(79, 70, 229);
+}
 @media (max-width: 63.9375em) {
   .hero__content--text {
     margin-top: 5rem;
@@ -352,4 +357,37 @@ button:hover,
   font-weight: 600;
   margin-top: 0.75rem;
   margin-bottom: 0px;
+}
+
+.footer {
+  padding: 2.5rem 0;
+  border-top: 1px solid #eaecf0;
+}
+@media (max-width: 39.9375em) {
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 39.9375em) {
+  .footer__content img {
+    margin-bottom: 2rem;
+  }
+}
+.footer__content a {
+  font-size: 1rem;
+  color: rgb(102, 112, 133);
+}
+@media (max-width: 39.9375em) {
+  .footer__content--links {
+    margin-bottom: 2rem;
+  }
+}
+.footer__content--links a {
+  font-size: 0.875rem;
+  transition: color 200ms ease-in-out;
+  padding: 0.625rem 0.75rem;
+}
+.footer__content--links a:hover {
+  color: rgb(152, 162, 179);
 }/*# sourceMappingURL=style.css.map */

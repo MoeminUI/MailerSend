@@ -59,7 +59,7 @@ a:hover {
 button,
 .button {
   display: inline-block;
-  padding: 0.625rem 1.25rem;
+  padding: 0.875rem 2rem;
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 500;
@@ -118,6 +118,11 @@ button:hover,
     display: flex;
     flex-direction: column-reverse;
   }
+}
+.hero__content--actions .button__secondary {
+  background-color: transparent;
+  border: 1px solid #a3aab5;
+  color: black;
 }
 @media (max-width: 63.9375em) {
   .hero__content--actions .button {

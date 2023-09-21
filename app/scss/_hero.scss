@@ -11,6 +11,11 @@
         }
         &--actions {
             .button {
+                &__secondary {
+                    background-color: transparent;
+                    border: 1px solid #a3aab5;
+                    color: black;
+                }
                 @include breakpoint-down(medium) {
                     width: 100%;
                     text-align: center;
